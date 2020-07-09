@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hand It Over</title>
+    <link href="project/stylesheets.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div class="handoff">
+    <h2>Hand It Over</h2>
+    <p></p>
+    </div>
+    <div class="leave">
+    <a href="index.html" class="button">TRY AGAIN</a>
+    </div>
+  </body>
+
+</html>

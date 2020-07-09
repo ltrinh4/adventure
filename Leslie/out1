@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bribery</title>
+    <link href="project/stylesheets.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div class="bride">
+    <h2>Bribery</h2>
+    <p>You are a stealthy person so they had some trouble finding you. They agreed to transfer you the bitcoin you requested. Unfortunately, you weren’t sneaky enough. (Maybe that explains why you don’t work for anonymous) You thought you were in the clear until someone put a potato in your car’s exhaust pipe. Sorry bud :/</p>
+    </div>
+    <div class="leave">
+    <a href="index.html" class="button">TRY AGAIN</a>
+    </div>
+  </body>
+
+</html>

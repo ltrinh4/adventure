@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Leak</title>
+    <link href="project/stylesheets.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div class="leak">
+    <h2>Leak It!</h2>
+    <p>Some call you a hero. Others call you treasonous. You accept an interview with CNN to explain yourself. There's a reason you are a hacker. The combination of social anxiety and stagefright can be deadly.</p>
+    </div>
+
+    <div class="leave">
+    <a href="index.html" class="button">TRY AGAIN</a>
+    </div>
+  </body>
+
+</html>
