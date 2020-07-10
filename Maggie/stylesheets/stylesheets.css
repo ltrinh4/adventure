@@ -1,11 +1,204 @@
+/*
+.progress-bar{
+  width: 406px;
+  height: 21px;
+  background: #111;
+  border-radius: 13px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+.progress{
+  width: 10px;
+  height: 15px;
+  background: #f60d54;
+  border-radius: 13px;
+}
+.text{
+  position: absolute;
+  left: 160px;
+  color: #fdb5ca;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 21px;
+  display: none;
+}
+.text-blink{
+  animation: animate .7s ease-in-out .1s;
+}
+@keyframes animate {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+end of leslies code*/
+.header {
+  font-family: Courier, monospace;
+  width: 1000px;
+display: block;
+margin: 0 auto;
+}
+/*maggie's code*/
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+
+.typewriter-text {
+
+  display: flex;
+  overflow: hidden;
+  letter-spacing: 2px;
+ animation: typing 5s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  border-right: 4px solid white;
+  box-sizing: border-box;
+  white-space: break-spaces;
+
+}
+  /*
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  */
+img {
+  width: 100px;
+}
+@keyframes typing {
+  from {
+      width: 0%
+  }
+  to {
+      width: 100%
+  }
+}
+
+@keyframes blink {
+  from, to {
+      border-color: transparent
+  }
+  50% {
+      border-color: white;
+  }
+
+/*end of maggies code*/
+}
+body {
+
+  cursor: url('cursor.cur'), auto;
+  background: black url("background.gif") no-repeat fixed center;
+  background-size: cover;
+  color: white ;
+  text-align: center;
+  margin-left: left;
+  margin-right: right;
+  padding: 10px;
+  margin: 10px;
+  min-height: 500px;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-gap: 5px;
+}
 .button {
-  font: bold 11px Arial;
+  font: bold 11px url(specialelite.ttf);
   text-decoration: none;
+  text-align: center;
   background-color: #EEEEEE;
-  color: #333333;
+  color: black;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+  height: 20px;
+  width: 65px;
+  margin: 0 auto;
+}
+
+.buttons {
+text-align: center;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(specialelite.ttf);
+}
+
+div {
+  font-family: myFirstFont;
+  display: grid;
+
+
+}
+.header {
+  display: grid;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  text-align: center;
+  margin-left: left;
+  margin-right: right;
+
+}
+.title {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: row 1;
+  grid-row-end: 2;
+
+}
+.leslie {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+.lee {
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+.maggie {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+.no {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+img {
+  width: 100px;
+  margin: 0 auto;
+}
+img {
+  width: 100px;
+  margin: 0 auto;
 }

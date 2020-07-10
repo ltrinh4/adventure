@@ -9,3 +9,35 @@
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
 }
+
+body {
+
+  cursor: url('cursor.cur'), auto;
+  background: black url("pepe.gif") no-repeat fixed center;
+  background-size: cover;
+  color: white ;
+  text-align: center;
+  margin-left: left;
+  margin-right: right;
+  padding: 10px;
+  margin: 10px;
+  min-height: 500px;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-gap: 5px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(specialelite.ttf);
+}
+
+div {
+  font-family: myFirstFont;
+  display: grid;
+background-color: rgba(0, 0, 0, 0.75);
+
+}
+img {
+  width: 300px;
+  margin: 0 auto;
+}
